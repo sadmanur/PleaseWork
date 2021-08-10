@@ -1,10 +1,10 @@
-package fcrm.pageActions;
+package freeCRM.pageActions;
 
 import java.util.concurrent.TimeUnit;
 
 import org.openqa.selenium.support.PageFactory;
 
-import fcrm.pageElements.FreeCRMPricingElements;
+import freeCRM.pageElements.FreeCRMPricingElements;
 import freeCRM.utilities.DriverSetUp;
 
 public class FreeCRMPricingPageActions {
@@ -14,14 +14,12 @@ public class FreeCRMPricingPageActions {
 	public FreeCRMPricingPageActions() {
 
 		this.pricingElements = new FreeCRMPricingElements();
-
-		// initElements(WebDriver driver, Object page)
 		PageFactory.initElements(DriverSetUp.chromeDriver, pricingElements);
 
 	}
 
-	public void getFreeCRMPricingPage() {
-		DriverSetUp.chromeDriver.get("https://freecrm.com/pricing_us.html");
+	public void getFreeCRMHomePage() {
+		DriverSetUp.chromeDriver.get("https://freecrm.com/");
 		DriverSetUp.chromeDriver.manage().window().maximize();
 		DriverSetUp.chromeDriver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
 	}

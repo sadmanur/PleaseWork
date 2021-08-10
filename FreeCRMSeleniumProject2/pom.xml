@@ -7,8 +7,8 @@
 	<version>0.0.1</version>
 	<developers>
 		<developer>
-			<id>Shahinur akter</id>
-			<name>Shahinur akter</name>
+			<id>Team Invincible</id>
+			<name>Team Invincible</name>
 			<organization>TalenTech</organization>
 			<organizationUrl>http://www.talentech.com</organizationUrl>
 			<roles>
@@ -118,7 +118,7 @@
 				<version>3.0.0-M5</version>
 				<configuration>
 					<includes>
-						<include>**/UpsTestRunner.java</include>
+						<include>**/FreeCRMTestRunner.java</include>
 					</includes>
 					<testFailureIgnore>true</testFailureIgnore>
 					<excludes>

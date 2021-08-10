@@ -7,7 +7,6 @@ import freeCRM.utilities.DriverSetUp;
 import io.cucumber.java.After;
 import io.cucumber.java.Scenario;
 
-
 public class AfterActions {
 
 	@After
@@ -34,15 +33,4 @@ public class AfterActions {
 
 	}
 
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
 }
-

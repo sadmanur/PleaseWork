@@ -2,7 +2,8 @@ package freeCRMStepDef;
 
 import org.testng.Assert;
 
-import fcrm.pageActions.FreeCRMAboutPageActions;
+import freeCRM.pageActions.FreeCRMAboutPageActions;
+import freeCRM.pageActions.FreeCRMPricingPageActions;
 import freeCRM.utilities.DriverSetUp;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
@@ -10,13 +11,13 @@ import io.cucumber.java.en.When;
 
 
 
-public class FreeCRMAboutStepDef {
+public class FreeCRMAboutStepDef  {
 	
 	FreeCRMAboutPageActions freeCRMAboutPageAction = new FreeCRMAboutPageActions();
 
 	@Given("Customer is in the home page {string}")
 	public void customer_is_in_the_home_page(String string) {
-	    freeCRMAboutPageAction.getfreeCRMAboutPage();
+	    freeCRMAboutPageAction.getFreeCRMHomePage();
 	}
 
 	@When("Customer click on the About option")

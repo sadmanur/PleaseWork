@@ -2,7 +2,7 @@ package freeCRMStepDef;
 
 import org.testng.Assert;
 
-import fcrm.pageActions.FreeCRMPricingPageActions;
+import freeCRM.pageActions.FreeCRMPricingPageActions;
 import freeCRM.utilities.DriverSetUp;
 import io.cucumber.java.en.*;
 
@@ -12,7 +12,7 @@ public class FreeCRMPricingStepDef {
 	
 	@Given("User is in the homepage of freeCRM {string}")
 	public void user_is_in_the_homepage_of_freeCRM(String string) {
-		freeCRMPricingPageAction.getFreeCRMPricingPage();
+		freeCRMPricingPageAction.getFreeCRMHomePage();
 	    
 	}
 
