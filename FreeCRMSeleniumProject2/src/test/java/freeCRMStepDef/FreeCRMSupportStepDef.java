@@ -2,14 +2,13 @@ package freeCRMStepDef;
 
 import org.testng.Assert;
 
-import freeCRM.pageActions.FreeCRMPricingPageActions;
 import freeCRM.pageActions.FreeCRMSupportPageActions;
 import freeCRM.utilities.DriverSetUp;
 import io.cucumber.java.en.*;
 
 
 
-public class FreeCRMSupportStepDef extends FreeCRMPricingPageActions {
+public class FreeCRMSupportStepDef {
 	
 	FreeCRMSupportPageActions freeCRMSupportPageAction = new FreeCRMSupportPageActions();
 	
